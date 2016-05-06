@@ -27,6 +27,11 @@ inputs:
       description: |
         Use this input to specify an emulator skin.
         Value example: `320x480`.
+  - ram: 1024
+    opts:
+      title: Emulator ram size
+      description: |
+        Use this to modify the emulator's ram size
   - android_home: $ANDROID_HOME
     opts:
       title: Android sdk path
